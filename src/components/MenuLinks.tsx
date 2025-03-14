@@ -1,16 +1,16 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function MenuLinks() {
   return (
     <>
       <li>
-        <Link href='/services'>Our Services</Link>
+        <Link href="/services">Our Services</Link>
       </li>
       <li>
-        <Link href='/about'>About us</Link>
+        <Link href="/about">About us</Link>
       </li>
       <li>
-        <Link href='/contact'>Contact us</Link>
+        <Link href="/contact">Contact us</Link>
       </li>
     </>
   );
