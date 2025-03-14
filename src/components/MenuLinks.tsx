@@ -4,7 +4,7 @@ export default function MenuLinks() {
   return (
     <>
       <li>
-        <Link href="/services">Our Services</Link>
+        <Link href="/services">Services</Link>
       </li>
       <li>
         <Link href="/about">About us</Link>
