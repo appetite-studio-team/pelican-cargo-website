@@ -1,7 +1,6 @@
-import Marquee from "@/components/Marquee";
 import FeaturesSection from "../_components/FeaturesSection";
 import ExtServicesSection from "./_components/ExtServicesSection";
-import { PiCompassRoseThin } from "react-icons/pi";
+import PelicanMarquee from "@/components/PelicanMarquee";
 
 export default function ServicesPage() {
   return (
@@ -14,18 +13,7 @@ export default function ServicesPage() {
         </div>
         <ExtServicesSection />
         <FeaturesSection />
-        <Marquee className="bg-neutral-950 font-mono text-2xl text-white uppercase lg:text-3xl">
-          <span className="mx-8">Safe</span>
-          <PiCompassRoseThin />
-          <span className="mx-8">Reliable</span>
-          <PiCompassRoseThin />
-          <span className="mx-8">Flexible</span>
-          <PiCompassRoseThin />
-          <span className="mx-8">Stable</span>
-          <PiCompassRoseThin />
-          <span className="mx-8">Professional</span>
-          <PiCompassRoseThin />
-        </Marquee>
+        <PelicanMarquee />
       </main>
     </div>
   );

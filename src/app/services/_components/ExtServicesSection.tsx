@@ -2,7 +2,7 @@ import ExtServiceCard from "./ExtServiceCard";
 
 export default function ExtServicesSection() {
   return (
-    <section className="bg-primary-content pt-20 pb-16">
+    <section className="bg-base-200 pt-20 pb-16">
       <div className="mx-auto max-w-6xl px-8">
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           <ExtServiceCard
