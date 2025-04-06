@@ -30,13 +30,13 @@ export default function Header() {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-xl dropdown-content rounded-box z-1 mt-3 w-80 space-y-1 border border-neutral-800 bg-neutral-950 px-4 py-20 font-medium text-white shadow"
+            className="menu menu-xl dropdown-content rounded-box z-1 mt-3 w-80 space-y-1 border border-neutral-800 bg-neutral-950 px-4 py-20 text-white shadow"
           >
-            <MenuLinks />
+            <MenuLinks smart />
             <li>
               <a
                 href="tel:+971 50 503 5501"
-                className="mt-8 flex gap-2 text-lg text-neutral-400"
+                className="mt-8 ml-2 flex w-fit gap-2 border border-neutral-900 py-2 text-lg"
               >
                 <FaPhoneVolume />
                 +971 50 503 5501
@@ -47,7 +47,7 @@ export default function Header() {
         <Link href="/" className="p-4">
           <Image
             src="/assets/images/pelican-logo.png"
-            alt="Pelican Truck Cargo Transport Logo"
+            alt="Pelican Cargo Transport Logo"
             width={100}
             height={100}
             className="brightness-0 invert"
@@ -56,7 +56,7 @@ export default function Header() {
       </div>
       <div className="navbar-center hidden text-white lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <MenuLinks />
+          <MenuLinks smart />
         </ul>
       </div>
       <div className="navbar-end p-4">
