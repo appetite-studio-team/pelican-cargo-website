@@ -11,6 +11,7 @@ export default function HeroSection() {
         className="absolute top-0 left-0 -z-1 h-full w-full object-cover"
       >
         <source src="/assets/bg-video.mp4" type="video/mp4" />
+        <source src="/assets/bg-video.webm" type="video/webm" />
       </video>
 
       <div className="absolute top-0 left-0 z-0 h-full w-full bg-black opacity-50"></div>
