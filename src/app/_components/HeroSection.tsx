@@ -7,12 +7,13 @@ export default function HeroSection() {
         muted
         autoPlay
         playsInline
+        disablePictureInPicture
         className="absolute top-0 left-0 -z-1 h-full w-full object-cover"
       >
         <source src="/assets/bg-video.mp4" type="video/mp4" />
       </video>
 
-      <div className="absolute top-0 left-0 z-0 h-full w-full bg-black opacity-40"></div>
+      <div className="absolute top-0 left-0 z-0 h-full w-full bg-black opacity-50"></div>
 
       <div className="relative m-auto w-full max-w-5xl space-y-2 p-8 text-white">
         <p>Pelican Truck Cargo Transport L.L.C</p>
