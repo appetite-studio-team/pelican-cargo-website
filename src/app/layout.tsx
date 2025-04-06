@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pelican Cargo Transport",
+  title: "Pelican Truck Cargo Transport",
   description:
     "Safe, Reliable, Flexible and Stable professional transport services in Dubai",
 };
@@ -28,7 +28,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="apple-mobile-web-app-title" content="Pelican Transport" />
+        <meta
+          name="apple-mobile-web-app-title"
+          content="Pelican Truck Cargo Transport"
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

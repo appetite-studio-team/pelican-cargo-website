@@ -47,7 +47,7 @@ export default function Header() {
         <Link href="/" className="p-4">
           <Image
             src="/assets/images/pelican-logo.png"
-            alt="Pelican Cargo Transport Logo"
+            alt="Pelican Truck Cargo Transport Logo"
             width={100}
             height={100}
             className="brightness-0 invert"

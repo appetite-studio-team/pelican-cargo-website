@@ -21,8 +21,8 @@ export default function FeaturesSection() {
             years of expertise
           </h2>
           <p className="m-auto max-w-lg text-neutral-500">
-            Pelican transport is one of Dubai&apos;s best transport company in
-            international and local moving services.
+            Pelican Truck Cargo Transport is one of Dubai&apos;s best transport
+            company in international and local moving services.
           </p>
         </div>
 
@@ -39,7 +39,7 @@ export default function FeaturesSection() {
               <PiStamp className="rounded bg-red-50 p-3 text-5xl text-red-700" />
             }
             title="Regulatory Affairs"
-            description="Our experienced team handles all types of documents required for moving any shipment cross-border or within the UAE. We provide an online bill of entry for bonxded or non-bonded shipments, online certificate of origin and online health certificate."
+            description="Our experienced team handles all types of documents required for moving any shipment cross-border or within the UAE."
           />
           <FeatureCard
             icon={
@@ -67,7 +67,7 @@ export default function FeaturesSection() {
               <PiHandshake className="rounded bg-orange-50 p-3 text-5xl text-orange-700" />
             }
             title="Bonded licensing"
-            description="Pelican transport is one of the few companies that can provide bonded services from any Free Zone inside Dubai for exports to GCC countries."
+            description="Pelican Truck Cargo Transport is one of the few companies that can provide bonded services from any Free Zone inside Dubai for exports to GCC countries."
           />
         </div>
       </div>

@@ -1,6 +1,6 @@
-# Pelican Cargo Website
+# Pelican Truck Cargo Website
 
-Official website for Pelican Cargo Transport L.L.C
+Official website for Pelican Truck Cargo Transport L.L.C
 
 ---
 

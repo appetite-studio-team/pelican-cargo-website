@@ -15,7 +15,7 @@ export default function HeroSection() {
       <div className="absolute top-0 left-0 z-0 h-full w-full bg-black opacity-40"></div>
 
       <div className="relative m-auto w-full max-w-5xl space-y-2 p-8 text-white">
-        <p>Pelican Cargo Transport L.L.C</p>
+        <p>Pelican Truck Cargo Transport L.L.C</p>
         <h1 className="max-w-3xl">
           Dubai&apos;s Trusted Cargo Partner.{" "}
           <span className="opacity-60">Experience the Difference.</span>

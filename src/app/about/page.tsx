@@ -25,10 +25,10 @@ export default function AboutPage() {
             />
             <div>
               <p className="max-w-2xl py-6 text-2xl lg:text-3xl">
-                Pelican Transport is one of Dubai&apos;s best transport company
-                in international and local moving services, anchored in
-                innovation and customer care by cultivating a unique approach to
-                land transport.
+                Pelican Truck Cargo Transport is one of Dubai&apos;s best
+                transport company in international and local moving services,
+                anchored in innovation and customer care by cultivating a unique
+                approach to land transport.
               </p>
               <Link href="/contact" className="btn btn-primary">
                 Contact us
@@ -40,11 +40,11 @@ export default function AboutPage() {
           <div className="rounded border border-neutral-200 p-4">
             <PiRocket className="m-auto my-4 text-7xl" />
             <p className="indent-8 leading-8">
-              Pelican Transport aims at providing a Safe, Reliable, Flexible and
-              Stable professional transport services to our customers at
-              competitive prices. We are a wide range of land transportation
-              services including specialized Project Movement, Turnkey
-              Transportation, Transit & Re-exporting.
+              Pelican Truck Cargo Transport aims at providing a Safe, Reliable,
+              Flexible and Stable professional transport services to our
+              customers at competitive prices. We are a wide range of land
+              transportation services including specialized Project Movement,
+              Turnkey Transportation, Transit & Re-exporting.
             </p>
           </div>
           <div className="rounded border border-neutral-200 p-4">
