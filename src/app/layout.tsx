@@ -26,10 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta
-          name="apple-mobile-web-app-title"
-          content="Pelican Truck Cargo Transport"
-        />
+        <meta name="apple-mobile-web-app-title" content="Pelican" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
