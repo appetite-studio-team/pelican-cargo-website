@@ -30,11 +30,11 @@ export default function ContactPage() {
                   info@pelicancargotransport.com
                 </a>
                 <a
-                  href="tel:+97150 115 4114"
+                  href="tel:+971 50 503 5501"
                   className="flex items-center gap-2 font-medium"
                 >
                   <PiPhoneBold className="bg-base-200 rounded-full p-2 text-4xl" />{" "}
-                  (+971)50 115 4114
+                  (+971)50 503 5501
                 </a>
               </div>
             </div>

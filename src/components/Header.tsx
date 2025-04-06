@@ -35,11 +35,11 @@ export default function Header() {
             <MenuLinks />
             <li>
               <a
-                href="tel:+971 51 115 4114"
+                href="tel:+971 50 503 5501"
                 className="mt-8 flex gap-2 text-lg text-neutral-400"
               >
                 <FaPhoneVolume />
-                +971 51 115 4114
+                +971 50 503 5501
               </a>
             </li>
           </ul>
@@ -60,10 +60,10 @@ export default function Header() {
         </ul>
       </div>
       <div className="navbar-end p-4">
-        <a href="tel:+971 51 115 4114" className="btn">
+        <a href="tel:+971 50 503 5501" className="btn">
           <span className="lg:hidden">Call Now</span>
           <span className="hidden items-center gap-2 lg:flex">
-            <FaPhoneVolume /> +971 51 115 4114
+            <FaPhoneVolume /> +971 50 503 5501
           </span>
         </a>
       </div>

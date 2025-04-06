@@ -8,10 +8,10 @@ export default function Footer() {
       <div className="py-20">
         <p className="font-mono">Let&apos;s talk then</p>
         <a
-          href="tel:+971 51 115 4114"
+          href="tel:+971 50 503 5501"
           className="text-3xl font-black hover:underline lg:text-5xl"
         >
-          +971 51 115 4114
+          +971 50 503 5501
         </a>
       </div>
       <aside>
