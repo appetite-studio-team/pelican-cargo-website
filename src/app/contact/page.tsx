@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { PiMailboxBold, PiMapPinLight, PiPhoneBold } from "react-icons/pi";
 import PelicanMarquee from "@/components/PelicanMarquee";
+import Socials from "@/components/Socials";
 
 export default function ContactPage() {
   return (
@@ -15,10 +16,12 @@ export default function ContactPage() {
           <div className="m-auto grid max-w-6xl gap-8 lg:grid-cols-2 lg:gap-2">
             <div className="rounded-lg bg-white px-4 py-20 lg:px-8">
               <div className="max-w-96 space-y-4">
-                <PiMapPinLight className="text-3xl lg:text-4xl" />
-                <p className="text-3xl font-bold lg:text-4xl">Dubai, UAE</p>
-                <p className="max-w-80">
-                  42 8B St - Ras Al Khor Industrial AreaRas - Al Khor -
+                <PiMapPinLight className="mx-auto text-3xl lg:mx-0 lg:text-4xl" />
+                <p className="text-center text-3xl font-bold lg:text-left lg:text-4xl">
+                  Dubai
+                </p>
+                <p className="max-w-80 text-center lg:text-left">
+                  42 8B St - Ras Al Khor Industrial Area, Ras - Al Khor -
                   Industrial Area 2 - Dubai
                 </p>
                 <div className="divider" />
@@ -36,6 +39,8 @@ export default function ContactPage() {
                   <PiPhoneBold className="bg-base-200 rounded-full p-2 text-4xl" />{" "}
                   (+971)50 503 5501
                 </a>
+                <div className="divider mb-8" />
+                <Socials />
               </div>
             </div>
             <Image

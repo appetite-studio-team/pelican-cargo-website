@@ -1,6 +1,6 @@
 import MenuLinks from "@/components/MenuLinks";
 import Image from "next/image";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa6";
+import Socials from "./Socials";
 
 export default function Footer() {
   return (
@@ -29,17 +29,7 @@ export default function Footer() {
         <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
       </aside>
       <nav>
-        <div className="grid grid-flow-col gap-4 text-2xl">
-          <a>
-            <FaInstagram />
-          </a>
-          <a>
-            <FaFacebook />
-          </a>
-          <a>
-            <FaLinkedin />
-          </a>
-        </div>
+        <Socials />
       </nav>
     </footer>
   );
