@@ -7,7 +7,7 @@ export default function ServicesSection() {
         <div className="grid gap-4 lg:grid-cols-3">
           <h2 className="lg:col-span-2">
             Wide range of <br />
-            <span className="text-primary">transport</span> services
+            <span className="text-primary">Transport</span> services
           </h2>
           <p className="m-auto max-w-lg text-neutral-600">
             Safe, Reliable, Flexible and Stable professional transportation

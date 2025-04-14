@@ -17,8 +17,9 @@ export default function FeaturesSection() {
             10
             <span className="text-primary align-top text-2xl lg:text-3xl">
               +
-            </span>{" "}
-            years of expertise
+            </span>
+            <br />
+            Years of Expertise
           </h2>
           <p className="m-auto max-w-lg text-neutral-500">
             Pelican Truck Cargo Transport is one of Dubai&apos;s best transport

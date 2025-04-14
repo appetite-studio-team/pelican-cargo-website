@@ -9,7 +9,7 @@ export default function Footer() {
         <p className="font-mono">Let&apos;s talk then</p>
         <a
           href="tel:+971 50 503 5501"
-          className="text-3xl font-black hover:underline lg:text-5xl"
+          className="text-2xl font-black hover:underline lg:text-5xl"
         >
           +971 50 503 5501
         </a>
