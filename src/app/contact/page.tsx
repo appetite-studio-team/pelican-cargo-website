@@ -21,13 +21,14 @@ export default function ContactPage() {
                   Dubai
                 </p>
                 <p className="max-w-80 text-center lg:text-left">
-                  <a 
+                  <a
                     href="https://maps.app.goo.gl/BjoRyZFaCr9mg1L88?g_st=iwb"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary"
                   >
-                    Office No: 31, 1st floor, Near Dyna Trade - 16A St - Nadd Al Hamar - Dubai
+                    Office No: 31, 1st floor, Near Dyna Trade - 16A St - Nadd Al
+                    Hamar - Dubai
                   </a>
                 </p>
                 <div className="divider" />
