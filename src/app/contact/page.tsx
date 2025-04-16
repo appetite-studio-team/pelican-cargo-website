@@ -21,8 +21,14 @@ export default function ContactPage() {
                   Dubai
                 </p>
                 <p className="max-w-80 text-center lg:text-left">
-                  42 8B St - Ras Al Khor Industrial Area, Ras - Al Khor -
-                  Industrial Area 2 - Dubai
+                  <a 
+                    href="https://maps.app.goo.gl/BjoRyZFaCr9mg1L88?g_st=iwb"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary"
+                  >
+                    Office No: 31, 1st floor, Near Dyna Trade - 16A St - Nadd Al Hamar - Dubai
+                  </a>
                 </p>
                 <div className="divider" />
                 <a
@@ -33,11 +39,11 @@ export default function ContactPage() {
                   info@pelicancargotransport.com
                 </a>
                 <a
-                  href="tel:+971 50 503 5501"
+                  href="tel:+971 48 244 965"
                   className="flex items-center gap-2 font-medium"
                 >
                   <PiPhoneBold className="bg-base-200 rounded-full p-2 text-4xl" />{" "}
-                  (+971)50 503 5501
+                  (+971)48 244 965
                 </a>
                 <div className="divider mb-8" />
                 <Socials />
